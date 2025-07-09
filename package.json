@@ -1,0 +1,19 @@
+{
+  "name": "discord-bot",
+  "version": "1.0.0",
+  "description": "A simple Discord bot with a pinger web server",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "luxon": "^3.6.1",
+    "node-cron": "^4.1.1"
+  },
+  "engines": {
+    "node": "14.x"
+  }
+}
